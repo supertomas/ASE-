@@ -523,9 +523,9 @@ long double* Likelihood(Node* node, long double likelihood_ret[], int site, int 
 
 
 int main() {
-    const char* fileName = "BLAT_20111_upper1001_seq.csv";
+    const char* fileName = "BLAT_upper1001seq_P_distribution.csv";
     std::ofstream ofs(fileName);
-    const char* fileName2 = "BLAT_upper1001_seq_220111.txt";
+    const char* fileName2 = "BLAT_upper1001seq_P_distribution.txt";
     ofstream ofs2(fileName2);
     if (!ofs)
     {
