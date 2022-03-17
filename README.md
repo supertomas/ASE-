@@ -1,4 +1,4 @@
-# ASE-
+# ASE(祖先配列推定)：現存生物のアミノ酸配列のデータを読み取り祖先配列の確率分布を出力するコード
 ## 大腸菌や乳酸菌といった現存生物のデータ1000個のアライメントファイルとそれに対応するtreeファイルを読みこみ、それらの生物種の祖先とされる配列の座位ごとの確率分布を出力するツールである。
 ### VS codeかVisual Studioで同じディレクトリ内にアライメントファイル(BLAT_data_upper1000_sequence_remove_gap_10percent_211124.a2m)と系統樹ファイル(BLAT_data_upper1000_sequence_remove_gap_10percent_include_root_211124.a2m.treefile)とソースコード(out_probability_ancestArray.cpp)を入れ実装すれば確率分布(BLAT_upper1001_remove_gap10_seq.txt)が得られる。この確率分布を元に算出した祖先最尤配列を以下に示す。以下の配列は、大腸菌や乳酸菌などの様々な現存生物に至った最も可能性の高い共通祖先の配列であることを示す。
 
